@@ -1,0 +1,89 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  body {
+    height: 100vh; /* Change to 100vh to cover the entire viewport height */
+    display: flex; /* Use flexbox to center the form */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-image: url("https://images.unsplash.com/photo-1595675024853-0f3ec9098ac7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+}
+
+.form {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px 25px;
+    width: 80%;
+}
+
+  
+  .checkbox {
+    width: 20px !important;
+  }
+  
+  .first-section input {
+    width: 85%;
+    height: 25px;
+    margin-left: 5px;
+  }
+  
+  .second-section input{
+    width: 80%;
+    height: 25px;
+    margin-left: 5px;
+  }
+  
+  .form h1, p {
+    text-align: center;
+  }
+  button {
+    border: none;
+    color: white;
+    background: #1560BD;
+    padding: 8px 25px;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto 10px auto;
+    width: 120px;
+  }
+  
+  .second-section {
+    margin-top: 15px;
+  }
+  
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.error {
+    color: red;
+}
+
+/* Style for the confirm password input field */
+#confirmPassword {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Style for the error message for confirm password */
+#confirmPasswordError {
+    color: red;
+    font-size: 14px;
+}
+
+  
+  .terms {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+  }
